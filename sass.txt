@@ -1,0 +1,4 @@
+sass --watch C:\laragon\www\todo-list\assets\scss\main.scss:C:\laragon\www\todo-list\assets\css\main.css
+
+// if minify css
+--style=compressed && postcss

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png">
+
+    <!-- All CSS -->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <title>Todo List</title>
+</head>
+<body>
+
+<header>
+    <h1>Todo List</h1>
+</header>
+<form action="">
+    <input type="text" class="todo-input">
+    <button class="todo-button" type="submit">
+        <i class="fas fa-plus-square"></i>
+    </button>
+    <div class="select">
+        <select name="todos" class="filter-todo">
+            <option value="all">All</option>
+            <option value="completed">Completed</option>
+            <option value="uncompleted">Uncompleted</option>
+        </select>
+    </div>
+</form>
+
+<div class="todo-container">
+    <ul class="todo-list"></ul>
+</div>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="assets/js/script.js"></script>
+</body>
+</html>
